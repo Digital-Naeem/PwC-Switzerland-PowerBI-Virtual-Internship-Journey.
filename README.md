@@ -391,7 +391,7 @@ With **Power BI**, the visualization is **clear and insightful**, allowing any *
 
 
 
-#  [ Task 3: Diversity & Inclusion – Completed Step-by-Step ] 
+#  [ Task 3: Diversity & Inclusion – Completed Step-by-Step ] --->
 
 ##  Problem Statement  
 The goal of this task was to **analyze diversity and inclusion metrics** within the organization, focusing on **key performance indicators (KPIs)** related to:  
