@@ -20,7 +20,7 @@ Now, I’m excited to talk you through each task—sharing the **insights, chall
 
 **Let’s dive in!**   
 
-# [ Task 1: Call Centre Trend in PhoneNow Company ] 
+# [ Task 1: Call Centre Trend in PhoneNow Company ] --->
 
 As part of this task, I was assigned to build a **detailed and insightful Power BI dashboard** for **PhoneNow**, a leading telecommunications company.  
 
@@ -145,21 +145,20 @@ These measures helped structure the data for **actionable insights** and **effic
 - **Lowest Calls Answered:** Stewart, with **477 calls**  
 - **Most Rated Agent:** Martha, **3.47 rating**  
 
----
 
 ##  Dashboard Design  
 
 I designed the dashboard with a **clean color palette** from **COLORS website** and applied **creative visualization** to ensure clarity and ease of interpretation.  
+This dashboard doesn’t just **display data**—it **tells the story** of call center performance in a clear and meaningful way.
 
-This dashboard doesn’t just **display data**—it **tells the story** of call center performance in a clear and meaningful way.  
+I hope this gives you a **clear idea of my process and results**. Now, **let’s move on to the second task!** 
 
 ---
-
-I hope this gives you a **clear idea of my process and results**. Now, **let’s move on to the second task!**   
-
+---
 
 
-# [ Task 2: Customer Retention Dashboard (Step-by-Step Explanation) ] 
+
+# [ Task 2: Customer Retention Dashboard (Step-by-Step Explanation) ] --->
 
 ##  Problem Statement  
 
@@ -348,11 +347,12 @@ The dashboard was divided into three main sections:
 | - **Promote Auto-Payments** | **Credit card / Bank transfer** incentives | 
 
 
+
 ##  Email/Report  
+---
 
 **Subject:** Customer Retention Dashboard – Findings & Strategic Suggestions  
-
----
+-
 
 **Dear [Engagement Partner],**  
 
@@ -381,9 +381,274 @@ Best Regards,
 ##  Conclusion  
 
 In this task, I designed a **data-driven dashboard** tailored to the needs of the **Retention Manager**, focusing not just on **understanding churn** — but also **predicting it**.  
-
 With **Power BI**, the visualization is **clear and insightful**, allowing any **stakeholder** to take **immediate action** just by viewing it.  
 
 **Now, let’s move on to the third task!**   
+
+---
+---
+
+
+
+
+#  [ Task 3: Diversity & Inclusion – Completed Step-by-Step ] 
+
+##  Problem Statement  
+The goal of this task was to **analyze diversity and inclusion metrics** within the organization, focusing on **key performance indicators (KPIs)** related to:  
+- **Hiring**  
+- **Promotion**  
+- **Performance**  
+- **Turnover**  
+
+We aimed to **visualize these KPIs**, **identify root causes** behind slow progress, and **suggest proactive solutions** to **manage retention risks—especially before contract terminations**.  
+
+---
+
+##  Step 1: Data Upload  
+- **Dataset Source:** PwC Switzerland  
+- **Total Observations:** 500  
+- **Total Columns:** 32  
+- **Data Coverage:** Gender, region, age, performance, job changes  
+
+---
+
+##  Step 2: Data Cleaning  
+
+Data cleaning was done using **Power Query in Power BI Desktop**, ensuring:  
+- Corrected **data types** for each column  
+- Removed **irrelevant rows**  
+- Filtered out **unnecessary or null entries**  
+- **Core table used:** Diversity and Inclusion  
+
+---
+
+##  Step 3: Data Transformation & Modeling  
+
+###  Data Transformation  
+- **Unnecessary columns removed** in Power Query  
+- **Validated column data types** for accuracy  
+- **Eliminated irrelevant rows**  
+- **Applied filters** to retain only relevant records  
+
+###  Data Modeling  
+- Created a separate table: **Basic Measures** to store all **key DAX measures** used in the report  
+
+---
+
+##  Gender Distribution – Key DAX Measures  
+
+```DAX
+% Female = DIVIDE([# Female], COUNT('Pharma Group AG'[Employee ID]), "NA")  
+% Male = DIVIDE([# Male], COUNT('Pharma Group AG'[Employee ID]), "NA")  
+```
+##  Step 4: Data Visualization – Summary with Key Insights  
+
+Interactive **Power BI dashboards** provided a **comprehensive view** of the company’s **Diversity & Inclusion landscape**.  
+> The data was visualized across multiple dimensions:  
+- **Department**  
+- **Age**  
+- **Region**  
+- **Gender**  
+
+This approach enabled **clear, data-driven, and inclusive decision-making.** 
+![Pwc Task 3 and Dashboard image 1](https://github.com/user-attachments/assets/bca526f1-023f-41aa-9ecc-d3baaf359517)
+![Pwc Task 3 and Dashboard image 2](https://github.com/user-attachments/assets/899eecef-811b-4a8b-bb3e-cbea6cdc1a02)
+![Pwc Task 3 and Dashboard image 3](https://github.com/user-attachments/assets/47aa8cce-725c-4bfe-b530-10f21e3cfdee)
+
+##  Key Highlights (Human-Centric & Insightful)  
+
+###  Workforce Snapshot  
+- **Total Employees:** 500 _(Male: 295, Female: 205)_  
+- **FY20 Promotions:** 87  
+- **Turnover Rate:** 9.40%  
+
+###  Promotion Trends  
+- **Promotion Rate** increased from **7.2% in FY20** to **10.2% in FY21**  
+- **Gender-wise promotions:** _Male – 61, Female – 26_  
+- **Junior Officer roles** had the **highest promotion rate**, with **approximately 50% female share**  
+- **Promotion rates grew across all levels for both genders**    
+
+
+##  Hiring Insights  
+
+###  Overall Hiring  
+- **Male:** 59%  
+- **Female:** 41%  
+
+- **Executive hires** were **heavily male-dominated** _(Male: 88%, Female: 13%)_  
+- **Junior Officer hiring** favored **females** _(Female: 53%)_  
+
+---
+
+##  Job Role Gender Gap  
+- **Female representation decreases** with **seniority**  
+- At the **Executive level**, females make up only **15.79%**  
+
+---
+
+##  Performance Ratings  
+> **FY20 Average Rating:**  
+- **Male:** 2.41  
+- **Female:** 2.42  
+
+- Ratings were **fairly balanced** across genders  
+
+---
+
+##  Age Diversity  
+- **Most employees** are aged **20–29** _(215 employees)_  
+- **Junior Officer roles** are **dominated by younger employees** _(94.67%)_  
+
+---
+
+##  Regional & National Diversity  
+- **Top Nationalities:**  
+- **Switzerland:** 264  
+- **France:** 95  
+- **Germany:** 65  
+
+- **Strong European representation** _(Female – 120, Male – 169)_  
+
+---
+
+##  Turnover by Level  
+- **Highest Turnover:**  
+- **Senior Officer:** 3.67%  
+- **Junior Officer:** 3.25%  
+
+- **Executive level had the lowest turnover**  
+
+##  Data Analysis – Measures Used in Visualization 
+![Pwc Task 3 measure image](https://github.com/user-attachments/assets/6a1aef47-07f8-46f6-a31e-d99d432a169e)
+
+###  Key DAX Measures  
+
+####  Average Performance Ratings  
+```DAX
+Average Female Rating = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),  
+FILTER('Pharma Group AG', 'Pharma Group AG'[Gender] = "Female"))
+→ Average FY20 rating for female employees
+
+
+Average Male Rating = CALCULATE(AVERAGE('Pharma Group AG'[FY20 Performance Rating]),  
+FILTER('Pharma Group AG', 'Pharma Group AG'[Gender] = "Male")) 
+→ Average FY20 rating for male employees
+
+
+Employee Distribution
+# Female = CALCULATE(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),  
+FILTER('Pharma Group AG', 'Pharma Group AG'[Gender] = "Female"))  
+→ Total unique female employees
+
+# Male = CALCULATE(DISTINCTCOUNT('Pharma Group AG'[Employee ID]),  
+FILTER('Pharma Group AG', 'Pharma Group AG'[Gender] = "Male"))  
+→ Total male employees
+
+Turnover & Promotions
+Turnover Rate = DIVIDE(CALCULATE(COUNT('Pharma Group AG'[FY20 leaver?]),  
+FILTER('Pharma Group AG', 'Pharma Group AG'[FY20 leaver?] = "Yes")),  
+COUNT('Pharma Group AG'[Employee ID]), "NA")  
+→ Percentage of employees who left in FY20
+
+Total Number Promotion = CALCULATE(COUNT('Pharma Group AG'[Promotion in FY20?]),  
+FILTER('Pharma Group AG', 'Pharma Group AG'[Promotion in FY20?] = "Y")) +  
+CALCULATE(COUNT('Pharma Group AG'[Promotion in FY21?]),  
+FILTER('Pharma Group AG', 'Pharma Group AG'[Promotion in FY21?] = "Yes"))  
+→ Total promotions in FY20 and FY21
+
+Gender Representation
+% Female = DIVIDE([# Female], COUNT('Pharma Group AG'[Employee ID]), "NA")  
+→ Percentage of female employees
+
+% Male = DIVIDE([# Male], COUNT('Pharma Group AG'[Employee ID]), "NA")  
+→ Percentage of male employees
+```
+
+#  Insights & Suggestions – Diversity & Inclusion Summary  
+
+##  1. Gender Balance – Hiring is Good, but Leadership Gap Persists  
+- **Overall hiring is balanced** _(Female – 41%, Male – 59%)_  
+- **Executive-level female representation** is only **15.79%**  
+- **In FY21, no female executive hires**—an urgent focus area  
+
+---
+
+##  2. Promotions Show Growth, but Gender Gap Remains  
+- **Promotion rate increased** from **7.2% (FY20) to 10.2% (FY21)**  
+- **Only 26 women promoted vs. 61 men**  
+- **Most promotions** occurred at **Junior Officer level**, with **~50% female representation**  
+
+---
+
+##  3. Female Representation Drops with Seniority  
+- **Junior Officer:** **53.85% Female**  
+- **Director Level:** **12.12% Female**  
+- **Executive Level:** **15.79% Female**  
+
+---
+
+##  4. Age Diversity is Limited  
+- **43% of employees are aged 20–29**  
+- **Very few employees aged 40+ in senior roles**  
+- **94% of Junior Officer roles** held by **young professionals**  
+
+---
+
+##  5. Regional Diversity Mostly European  
+- **Top nationalities:** _Switzerland, France, Germany_  
+- **Minimal presence** from **Asia, Africa, and other regions**  
+
+---
+
+##  6. Turnover High at Mid-Levels  
+- **Senior Officer turnover highest** at **3.67%**  
+- **Junior Officer turnover:** **3.25%**  
+- **Executives show strong retention**  
+
+---
+
+##  7. Performance Ratings Fair & Balanced  
+- **Male average rating:** 2.41  
+- **Female average rating:** 2.42  
+- **Most employees scored 2 or 3**  
+
+
+##  Strategic Suggestions for Growth  
+
+###  Grow Female Leadership  
+- Launch **targeted hiring & mentorship** for senior roles  
+- Set **KPIs for female leadership representation**  
+
+###  Control Mid-Level Turnover  
+- Develop **clear career paths & internal promotion policies**  
+- Strengthen **employee feedback mechanisms**  
+
+###  Increase Age Inclusivity  
+- Offer **flexible roles** for employees aged **40+**  
+- Implement **reverse mentoring & second-career programs**  
+
+###  Expand Global Talent Pool  
+- Extend hiring to **Asia, Africa, LATAM**  
+- Foster **diverse cultural backgrounds** in the workplace  
+
+###  Transparent Promotion Process  
+- Ensure **merit-based, bias-free promotions**  
+- Monitor **gender-wise promotion data quarterly**  
+
+###  Proactive Attrition Tracking  
+- Build **live Power BI dashboard** to predict turnover risks  
+- Launch **early support programs** for low-engagement employees  
+
+---
+
+##  Conclusion  
+
+The company is **progressing well in diversity**, but **meaningful impact** requires **focused efforts** in:  
+- **Leadership Diversity**  
+- **Equitable Promotions**  
+- **Broader Global Outreach**  
+
+This **data-driven approach** forms a **strong foundation** for an **inclusive, future-ready culture**. 
+
 
 
